@@ -19,3 +19,4 @@ class WhitePapersPage:
         wait = WebDriverWait(self.driver, 10)
         UCITSWhitePaper_element = wait.until(EC.element_to_be_clickable((By.XPATH, self.UCITSWhitePaper_element_xpath)))
         UCITSWhitePaper_element.click()
+

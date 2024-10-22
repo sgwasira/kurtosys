@@ -4,7 +4,7 @@ import allure
 import pytest
 
 from Pages.homePage import HomePage
-from Pages.whitePapersPages import WhitePapersPage
+from Pages.whitePapersPage import WhitePapersPage
 from Utils.readProperties_UrlDetails import ReadUrlConfig
 
 
